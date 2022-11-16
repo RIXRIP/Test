@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "PlusJakartaSansRegular"; 
+       src: url("../css/fonts/PlusJakartaSans/static/PlusJakartaSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+    @font-face {
+        font-family: "RelewayRegular"; 
+        src: url("../css/fonts/Raleway/static/Raleway-Bold.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 

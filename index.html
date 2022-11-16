@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Шерстобитов Владислав</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" href="/css/fonts.css">
+    <meta name="viewport" content="wight-device-widht" initial-scale=1>
+</head>
+
+<body>
+    <div class="intro">
+        <div>
+            <h1 id="opacAnimation"class="title-main">Шерстобитов Владислав</h1>
+            <h1 id="opacAnimation2" class="titleMainDev">
+                <p id="0" class="words">W<p>
+                <p id="1" class="words">e</p>
+                <p id="2" class="words">b</p>
+                <p id="2" class="words">-</p>
+                <p id="3" class="words">d</p>
+                <p id="4" class="words">e</p>
+                <p id="5" class="words">v</p>
+                <p id="6" class="words">e</p>
+                <p id="7" class="words">l</p>
+                <p id="8" class="words">o</p>
+                <p id="9" class="words">p</p>
+                <p id="10" class="words">e</p>
+                <p id="11" class="words">r</p></h1>
+
+            
+        </div>
+        <div class="container">
+            <img class="photo" src="img/person2.jpg" alt="Error img">
+        </div>
+    </div>
+    <a href="#" class="up"><img class="up" src="img/premium-icon-up-arrows-2926319.png" height="50px" alt="Error img"></a>
+    <div class="title_padding">
+        <h1 class="title">Подробнее обо мне</h1>
+
+    </div>
+    <!-- accordion -->
+    <div class="chapter"></div>
+    <button class="accordion">Кто я?</button>
+    <div class="panel">
+        <p>Меня зовут Шерстобитов Владислав, мне 18 лет.</p>
+    </div>
+
+    <button class="accordion">Где и когда родился</button>
+    <div class="panel">
+        <p>Родился 27 октября 2003 года, в городе Белая Холуница.</p>
+    </div>
+
+    <button class="accordion">Чем я занимаюсь во время учебы</button>
+    <div class="panel">
+        <p>Учусь на 4 курсе колледжа ВятГУ по специальности Информационные системы и программирование. Живу в общежитии №1 от Колледжа ВятГУ. Параллельно с учёбой изучаю программирование. Учу язык C# и в рамках учебного курса C++, так же приходилось иметь дело с такими языками, как PascalABC, JavaScript</p>
+    </div>
+
+    <button class="accordion">Мои увлечения</button>
+    <div class="panel">
+        <p>'В свободное время люблю активный отдых, а именно играть в баскетбол. Часто играю в компьютерные игры, смотрю ютуб (развлекательный, научный и контент который связан с моей учебой и профессией).</p>
+    </div>
+
+    <!-- projects -->
+    <a href="#" class="up"><img class="up" src="img/premium-icon-up-arrows-2926319.png" height="50px" alt="Error img"></a>
+    <div class="title_padding">
+        <h1 class="title">Проекты</h1>
+        <div class="chapter">
+            <div class="text">
+                В рамках учебного курса работал над индивидуальным проектом под названием "Bilding firm".
+                Проект был реализован на языке C# с использованием WinForms в IDE Visual Studio.
+                Темой проекта является стротельная фирма, которая ведет учет сотрудников, поставщиков, заказов и
+                проектов.<br><br>
+                <a class="project_link" href="https://github.com/RIXRIP/Bilding_firm" target="_blank"> Ссылка на проект:
+                    "Bilding firm"</a>
+                <img class="simp_img" src="img/proj.jpg" alt="Error img">
+                Так же в рамках учебного курса работал над коллективным проектом под названием "Bebragram".Проект был
+                реализован на языке C# с использованием WPF в IDE Visual Studio.
+                Темой этого проекта стал десктопный мессенджер. В этом проекте я занимался XAML разметкой. К сожалению
+                проект не закончен.
+                <br><br>
+                <a class="project_link" href="https://github.com/RIXRIP/messenger-client" target="_blank"> Ссылка на
+                    проект: "Bebragram"</a>
+                <img class="simp_img" src="img/proj bebr.png" height="400" width="600" alt="Error img">
+            </div>
+        </div>
+    </div>
+    <!-- ________________social______________ -->
+    <div class="title_padding">
+        <h1 class="title">Контакты</h1>
+        <div class="social_text">
+            Здесь представлена контактная информация для связи со мной:
+        </div>
+        <div class="social">
+            <a class="social-item" href="https://vk.com/id457654419" target="_blank">
+                <img src="img/vk.png" height="120px" alt="i">
+            </a>
+            <a class="social-item" href="https://github.com/RIXRIP" target="_blank">
+                <img src="img/github.png" height="120px" alt="i">
+            </a>
+            <a class="social-item" href="mailto:vlad.sherstobitov.00inbox.ru@gmail.com">
+                <img src="img/email.png" height="120px" alt="i">
+            </a>
+
+        </div>
+    </div>
+    <form action="index.php" method="post">
+        <input type="text" name="login" placeholder="Введите логин" required/>
+        <input type="password" name="pass" placeholder="Введите пароль" required/>
+        <input type="email" name="email" placeholder="Введите email" required/>
+        <input type="submit" value="Отправить данные"/>
+        </form>
+    <!-- при деплое на продакшен замените «development.js» на «production.min.js». -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="like_button.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
